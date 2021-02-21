@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ThreadsTesting.jnlp">
+  <information>
+    <title>ThreadsTesting</title>
+    <vendor>Alawi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ThreadsTesting.jar" size="2828" download="eager" />
+    <jar href="lib\gluegen-rt-natives-windows-amd64.jar" size="8159" download="eager" />
+    <jar href="lib\gluegen-rt.jar" size="345605" download="eager" />
+    <jar href="lib\jogl-all-natives-windows-amd64.jar" size="240721" download="eager" />
+    <jar href="lib\jogl-all.jar" size="3414448" download="eager" />
+  </resources>
+  <application-desc main-class="chartproject.ThreadTesting"  name="ThreadsTesting" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
